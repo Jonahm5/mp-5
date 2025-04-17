@@ -22,7 +22,7 @@ export default function NewLinkForm() {
                             console.log("INVALID LINK")
                          } else {
                              await createNewLink(url, alias)
-                             setNewLink(`${window.location.origin}/r/${alias}`)
+                             setNewLink(`https://mp-5-topaz.vercel.app/r/${alias}`)
                          }
                      } else {
                          console.error("Alias Already Exists")
