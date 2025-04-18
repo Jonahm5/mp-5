@@ -10,6 +10,7 @@ export default function RootLayout(
         <body style={{
             margin: 0,
             padding: 0,
+            backgroundColor: "#ffddd2",
         }}>
         <Header/>
         {children}
